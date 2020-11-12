@@ -41,7 +41,7 @@ const LoginScreen = ({navigation})=>{
                 <Text style={{fontSize:30, fontWeight:"600"}}>Sign in</Text>
                 </View>
                 <View style={{backgroundColor:"white", height:60,width:60, padding:15, borderRadius:30, marginLeft:10, marginTop:-15}}>
-                <Feather onPress={()=>{navigation.navigate("Home")}}
+                <Feather onPress={()=>{navigation.navigate("Checkout")}}
                 name="arrow-right"
                 size={30}
                 color="black"/>

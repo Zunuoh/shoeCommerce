@@ -5,6 +5,7 @@ import LoginScreen from './src/LoginScreen';
 import HomeScreen from './src/HomeScreen';
 import CartScreen from './src/CartScreen';
 import Header from './src/header/header';
+import CheckoutScreen from './src/CheckoutScreen';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import RootStack from './src/RootStack';
@@ -57,6 +58,7 @@ export default function App() {
        <Stack.Screen name="Home" component={HomeScreen} options={{headerShown:false}}/>
        <Stack.Screen name="Cart" component={CartScreen} options={{headerShown:false}}/>
        <Stack.Screen name="Header" component={Header} options={{headerShown:false}}/>
+       <Stack.Screen name="Checkout" component={CheckoutScreen} options={{headerShown:false}}/>
      </Stack.Navigator>
    </NavigationContainer>
     // </AuthContext.Provider>
